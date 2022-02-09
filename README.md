@@ -1,10 +1,11 @@
-# ***_Anthem Music App_***
+# **_*Anthem Music*_**
 
-<img src=images/party.jpeg alt="Anthem App" width="450" />
+<img src=images/party.jpeg alt="Anthem Music" width="450" />
 
 ##### A music app designed to curate a list of the top 20 anthem songs of the year/summer that everyone can access anywhere.
 
 ---
+
 ---
 
 #### Created By: [Terra Smith](https://www.linkedin.com/in/terratori/)
@@ -15,17 +16,18 @@
 
 ##### 02/07/2022
 
-
 ---
+
 ---
 
 ## **_Description_**
 
 #### A music app designed to curate a list of the top 20 anthem songs of the year/summer that everyone can access anywhere. <br>
 
-<img src=images/tape_music.jpeg alt="Anthem App" width="450" />
+<img src=images/tape_music.jpeg alt="Anthem Music" width="450" />
 
 ---
+
 ---
 
 ### **_Technology Used_**
@@ -33,6 +35,7 @@
 [TRELLO](https://trello.com/b/NZ0hAGwT/anthem-app) || [Whimsical](https://whimsical.com/anthem-app-6Rky8LwLUik2iVSwjjq6ti) || VS Code || Python || VUE || Django || Postgres || SQL || Insomnia || Figma || InkScape || FinalCut Pro
 
 ---
+
 ---
 
 ### **_Getting Started_**
@@ -40,14 +43,16 @@
 -  Fork and Clone this repo to review the code
 
 ---
----
-
-<img src=images/vinyl.jpeg alt="Anthem App" width="475" />
 
 ---
+
+<img src=images/vinyl.jpeg alt="Anthem Music" width="475" />
+
 ---
 
-## **_Benefits of Anthem music app:_**
+---
+
+## **_Benefits of Anthem Music:_**
 
 -  Instant access to new releases
 -  High-quality music content
@@ -58,23 +63,25 @@
 
 ---
 
-### **_How Anthem Music App Works_**
+### **_How Anthem Music Works_**
 
-<img src=images/cheers_party.jpeg alt="Anthem App" width="450" />
+<img src=images/cheers_party.jpeg alt="Anthem Music" width="450" />
 
-#### Anthem Music App is designed to curate lists of the most popular top 20 anthem songs of the year/summer for anyone, especially DJs to access whether they need a playlist for a party or an upcoming gig..<br>
-
----
----
-
-<img src=images/dj_discoball.jpeg alt="Anthem APp" width="450" />
+#### Anthem Music is an app designed to curate lists of the most popular top 20 anthem songs of the year/summer for anyone, especially DJs to access whether they need a playlist for a party or an upcoming gig..<br>
 
 ---
-___
+
+---
+
+<img src=images/dj_discoball.jpeg alt="Anthem Music" width="450" />
+
+---
+
+---
 
 ### **_Future Updates_**
 
-##### - [  ] Update How the app works
+##### - [ ] Update How the app works
 
 ##### - [ x ] ~~Add images of the app~~
 
@@ -83,8 +90,9 @@ ___
 ##### - [ ] TBD
 
 ---
-___
+
+---
 
 #### **_Credits_**
 
-Images: [Anthem App](https://.com/)
+Images: [Anthem Music](https://.com/)
