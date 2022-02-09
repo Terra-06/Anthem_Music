@@ -1,5 +1,9 @@
 # **_*Anthem Music*_**
 
+---
+
+---
+
 <img src=images/party.jpeg alt="Anthem Music" width="450" />
 
 ##### A music app designed to curate a list of the top 20 anthem songs of the year/summer that everyone can access anywhere.
