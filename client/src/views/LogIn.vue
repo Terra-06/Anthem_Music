@@ -52,6 +52,8 @@ export default {
 						'Token ' + token;
 
 					localStorage.setItem[('token', token)];
+
+					// this.$router.push('/playlists');
 				})
 				.catch((error) => {
 					console.log(error);

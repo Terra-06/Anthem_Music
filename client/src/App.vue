@@ -1,8 +1,10 @@
 <template>
 	<div class="app">
 		<div id="nav">
-			<router-link to="/sign-up"> Sign Up | </router-link>
-			<router-link to="/log-in"> Log In </router-link>
+			<router-link to="/sign-up"> Sign Up || </router-link>
+			<router-link to="/log-in"> Log In || </router-link>
+			<router-link to="/music"> Music || </router-link>
+			<router-link to="/playlists"> Playlists </router-link>
 		</div>
 		<router-view />
 	</div>
