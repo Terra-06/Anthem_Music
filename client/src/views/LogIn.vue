@@ -38,6 +38,7 @@ export default {
 				username: this.username,
 				password: this.password,
 			};
+			console.log(formData);
 
 			axios
 				.post('/api/v1/token/login/', formData)
@@ -53,7 +54,7 @@ export default {
 
 					localStorage.setItem[('token', token)];
 
-					// this.$router.push('/playlists');
+					this.$router.push('/music');
 				})
 				.catch((error) => {
 					console.log(error);
