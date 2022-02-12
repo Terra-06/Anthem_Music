@@ -1,1 +1,1 @@
-web: gunicorn anthem_music.wsgi
+web: gunicorn anthem.wsgi
