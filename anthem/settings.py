@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
+import os
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,10 +22,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-gjm-#f21x2p*vl8b$wzocf865p2klze-@xj0+9^kp*p5q$nhmh'
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True  # if os.getenv['MODE'] == 'dev' else False
 
 ALLOWED_HOSTS = []
 
@@ -37,7 +39,9 @@ REST_FRAMEWORK = {
     )
 }
 
-CORS_ALLOWED_ORIGINS = ['http://127.0.0.1:8000', 'http://localhost:8080']
+CORS_ALLOWED_ORIGINS = ['http://127.0.0.1:3000',
+                        'http://localhost:3000',
+                        'http://localhost:8080']
 # Application definition
 
 INSTALLED_APPS = [
@@ -57,6 +61,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -91,13 +96,15 @@ WSGI_APPLICATION = 'anthem.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'anthem_music',
-        'USER': 'anthem_music_user',
-        'PASSWORD': 'anthem_music',
-        'HOST': 'localhost'
-    }
+    'default': dj_database_url.config(conn_max_age=600)
+
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'anthem_music',
+    #     'USER': 'anthem_music_user',
+    #     'PASSWORD': 'anthem_music',
+    #     'HOST': 'localhost'
+    # }
 }
 
 
@@ -141,3 +148,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+STATIC_ROOT = os.path.join(BASE_DIR, "static/")

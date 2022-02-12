@@ -1,1 +1,1 @@
-export const MUSIC_URL = ''
+export const MUSIC_URL = 'https://api.spotify.com/v1'
