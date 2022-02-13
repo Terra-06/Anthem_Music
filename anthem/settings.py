@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True  # if os.getenv['MODE'] == 'dev' else False
+DEBUG = True if os.getenv('MODE') == 'dev' else False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (
@@ -39,9 +39,11 @@ REST_FRAMEWORK = {
     )
 }
 
-CORS_ALLOWED_ORIGINS = ['http://127.0.0.1:3000',
-                        'http://localhost:3000',
-                        'http://localhost:8080']
+# CORS_ALLOWED_ORIGINS = ['http://127.0.0.1:3000',
+#                         'http://localhost:3000',
+#                         'http://localhost:8080']
+
+CORS_ORIGIN_ALLOW_ALL = True
 # Application definition
 
 INSTALLED_APPS = [
