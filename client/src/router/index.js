@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import SignUp from '../views/SignUp.vue'
 import LogIn from '../views/LogIn.vue'
 import Music from '../views/Music.vue'
-import Playlists from '../components/Playlists.vue'
+import Playlists from '../views/Playlists.vue'
 
 const routes = [
     {
