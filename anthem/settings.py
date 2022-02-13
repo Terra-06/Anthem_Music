@@ -57,7 +57,7 @@ INSTALLED_APPS = [
     'anthem_music',
     'rest_framework',
     'rest_framework.authtoken',
-    'djoser',
+    # 'djoser',
     'corsheaders',
 
 ]
