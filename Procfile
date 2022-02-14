@@ -1,0 +1,1 @@
+web: gunicorn anthem.wsgi:application --preload --workers 1
