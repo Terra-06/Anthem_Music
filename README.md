@@ -28,7 +28,7 @@
 
 #### A music app designed to curate a list of the top 20 anthem songs of the year/summer that everyone can access anywhere. <br>
 
-<img src=images/tape_music.jpeg alt="Anthem Music" width="450" />
+<img src=images/anthem01.png alt="Anthem Music" width="550" />
 
 ---
 
@@ -36,7 +36,7 @@
 
 ### **_Technology Used_**
 
-[TRELLO](https://trello.com/b/NZ0hAGwT/anthem-app) || [Whimsical](https://whimsical.com/anthem-app-6Rky8LwLUik2iVSwjjq6ti) || VS Code || Python || VUE || Django || Postgres || SQL || Insomnia || Figma || InkScape || FinalCut Pro
+[TRELLO](https://trello.com/b/NZ0hAGwT/anthem-music) || Whimsical || VS Code || Python || VUE || Django || Postgres || SQL || Insomnia || Figma || InkScape || FinalCut Pro
 
 ---
 
@@ -50,7 +50,7 @@
 
 ---
 
-<img src=images/vinyl.jpeg alt="Anthem Music" width="475" />
+<img src=images/anthem02.png alt="Anthem Music" width="475" />
 
 ---
 
@@ -69,7 +69,7 @@
 
 ### **_How Anthem Music Works_**
 
-<img src=images/cheers_party.jpeg alt="Anthem Music" width="450" />
+<img src=images/anthem03.png alt="Anthem Music" width="450" />
 
 #### Anthem Music is an app designed to curate lists of the most popular top 20 anthem songs of the year/summer for anyone, especially DJs to access whether they need a playlist for a party or an upcoming gig..<br>
 
@@ -77,7 +77,7 @@
 
 ---
 
-<img src=images/dj_discoball.jpeg alt="Anthem Music" width="450" />
+<img src=images/anthem04.png alt="Anthem Music" width="450" />
 
 ---
 
@@ -85,13 +85,11 @@
 
 ### **_Future Updates_**
 
-##### - [ ] Update How the app works
+##### - [ x ] ~~Update How the app works~~
 
 ##### - [ x ] ~~Add images of the app~~
 
 ##### - [ x ] ~~Update ReadMe~~
-
-##### - [ ] TBD
 
 ---
 
@@ -99,4 +97,4 @@
 
 #### **_Credits_**
 
-Images: [Anthem Music](https://.com/)
+Images: [Anthem Music](https://anthem-music-app.herokuapp.com/music)
